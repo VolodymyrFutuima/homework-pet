@@ -1,16 +1,27 @@
-# This is a sample Python script.
+class Car:
+    wheels = 4
+    headlight = 2
+    steeringwheel = 1
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    def __init__(self, color, doors,window):
+        self.color = color
+        self.doors = doors
+        self.window = window
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+car1 = Car(color="red", doors=5, window=4)
+
+class Bowedinstruments:
+    strings = 4
+    bow = 1
+    musicalholes = 2
+    def __init__(self, material, bowsize,playstile):
+        self.material = material
+        self.bowsize = bowsize
+        self.playstile = playstile
+
+bowedinstrument1 = Bowedinstruments(material="wood",bowsize="big",playstile="presto")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
